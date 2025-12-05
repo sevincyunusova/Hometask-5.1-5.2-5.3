@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <meta name="keywords" content="Space , Alien">
+    <meta name="author" content="Sevincxanım Yunusova">
+    <title>Hometask3</title>
+</head>
+
+<body>
+
+
+    <a href="#table">Home</a>
+    <a href="#contact_us">Contact us</a>
+    <a href="#about_us">About us</a>
+    <a href="#services">Services</a>
+    <a href="#content">Content</a>
+    <a href="#map">Ünvan</a>
+
+
+
+    <h1>Space Invaders</h1>
+
+    <h3 id="content">General Information</h3>
+    <p>Space Invaders is a 1978 arcade shooting game developed by the Japanese company <b>Taito</b>. It became a
+        cultural phenomenon and one of the earliest games that created massive global hype. The player controls a laser
+        cannon, moving horizontally across the bottom of the screen while shooting descending aliens before they reach
+        the ground</p>
+    <p>According to developers, the original idea was inspried by a mix of <i>Star Wars , War of the Worlds</i>, and
+        traditiona; shooting ranges. Interestingly, the game was supposed to feature tanks and soldiers , but technical
+        limitations forced Taito to use simple alien shapes instead.</p>
+
+    <h3>Gameplay Mechanics</h3>
+    <p>The alien formation moves left-to-right, gradually accelerating as more invaders are eliminated. Once they hit
+        the screen boundary, they descend one level and change direction. The tension increases as the sound effects
+        speed up, creating a sense of panic deliberately engineered by the developes.</p>
+    <ul>
+        <li><b>Laser Cannon:</b> The player's ship that fires single shots.</li>
+        <li><b>Barriers :</b> Four destructible shelters that provide temporary protection.</li>
+        <li><b>Mystery UFO: </b>A special alien that appears occasionaly, offering bonus points.</li>
+    </ul>
+    <h3 id="contact_us">Alien Types</h3>
+    <p>Space Invaders features a structured alien army arranged in rows. Although simple, each type behaves differently
+        and grants different points :</p>
+    <ol>
+        <li><b>Squid Invaders:</b>Top-row invaders worth the highest points.</li>
+        <li><b>Crab Inaders: </b>Middle-row aliens known for their distinctive movement.</li>
+        <li><b>Octopus Invaders:</b> Bottom-row aliens, most common and lowest scoring.</li>
+    </ol>
+
+    <iframe id="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.3451321737984!2d49.853872775825316!3d40.37904277144573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307dd42d26ad8d%3A0x2aa807745685f89!2sAdnsu!5e0!3m2!1sen!2saz!4v1764413834611!5m2!1sen!2saz"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>"
+
+
+    <h5>The Hidden "Kill Screen" Bug</h5>
+    <p>On level 256, a strange phenomenon occurs—similar to the Pac-Man glitch. A memory counter used by the game
+        overflows, causing corrupted graphics to appear on the screen. Players refer to this as the <b>"Vertical Memory
+            Collapse"</b></p>
+    <img src="../../pics/alien.jpeg" alt="alien photo" title="alien photo">
+    <p>The cause is simple: the game uses an 8-bit integer to store the current level number. When the counter reaches
+        256, it overflows back to zero. The graphics routine, thinking it is level 0, draws alien sprites in incorrect
+        memory regions, causing screen distortion.</p>
+    <p>“We didn't expect players to reach that far. The glitch became part of gaming history.” —<i> Nishikado Tomohiro,
+            Creator of Space Invaders</i></p>
+    <h4 id="about_us">Legacy and influence</h4>
+    <p>Space Invaders is considered one of the most influential video games ever created. It increased arcade machine
+        sales dramatically and helped establish gaming as a mainstream entertainment medium. Its mechanic of enemies
+        speeding up as they decrease in number became a foundational concept in game design.</p>
+    <p>Over the years, Space Invaders has been remade, enhanced, and re-released in numerous compilations. Some of the
+        most notable collections are listed below:</p>
+    <table id="table">
+        <thead>
+            <tr>
+                <th>Collection Title</th>
+                <th>Release Date</th>
+                <th>Included Games</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Space Invaders Anniversary</td>
+                <td>2003</td>
+                <td>
+                    <ul>
+                        <li>Space Invaders Classic</li>
+                        <li>Space Invaders DX</li>
+                        <li>Space Invaders Part II</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Taito Legends</td>
+                <td>2005</td>
+                <td>
+                    <ul>
+                        <li>Space Invaders</li>
+                        <li>Space Invaders Part II</li>
+                        <li>Bubble Bobble</li>
+                        <li>Elevator Action</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Space Invaders Invincible Collection</td>
+                <td>Nintendo Switch: 2020</td>
+                <td>
+                    <ul>
+                        <li>Space Invaders Extreme</li>
+                        <li>Arkanoid vs. Space Invaders</li>
+                        <li>Majestic Twelve</li>
+                        <li>Super Space Invaders '91</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <h4 id="services">Modern Appearances</h4>
+    <p>Space Invaders is frequently referenced in pop culture. The alien sprite is considered a universal symbol of
+        retro gaming. It appears in movies, music videos, street art, and even fashion. The French artist<b> Invader</b>
+        uses mosaic tiles to place Space Invaders sprites across major cities.</p>
+    <p>Today, the game continues to inspire developers, serving as an iconic example of how simple mechanics can create
+        deep, engaging gameplay.</p>
+</body>
+
+</html>

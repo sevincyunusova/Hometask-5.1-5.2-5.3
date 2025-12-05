@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial scale=1.0">
+    <meta name="keywords" content="HTMl tables,forms">
+    <title>Hometask 5</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label>Salutation</label>
+            <select>
+                <option>--None--</option>
+                <option>Mr</option>
+                <option>Mrs</option>
+                <option>Ms</option>
+                <option>Dr</option>
+                <option>Prof</option>
+            </select>
+            <br>
+            <br>
+            <label for="fname">First Name :</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter your name">
+            <br>
+            <br>
+            <label for="lname">Last Name :</label>
+            <input type="lname" id="lname" name="lname" placeholder="Enter your Last Name">
+            <br>
+            <br>
+            <!-- <p>Gender :</p> -->
+            <!-- <input type="radio" name="male" id="gender">
+            <label for="male">Male</label> -->
+            <label>
+                Gender :
+                Male
+                <input type="radio" name="gender" >
+            </label>
+            <label>
+                Female
+                <input type="radio" name="gender" >
+            </label>
+            <label>
+                Other
+                <input type="radio" name="gender" >
+            </label> 
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your Email ">
+            <br>
+            <br>
+            <label for="bdate">Date of Birth :</label>
+            <input type="date" name="bdate" id="bdate">
+            <br>
+            <br>
+            <label for="phone">Phone Number :</label>
+            <input type="tel" name="phone" id="phone" placeholder="Enter your Phone Number">
+            <br>
+            <br>
+            <p>Adress :</p>
+            <!-- <label for="adress">Adress :<label>
+                
+             Sual: ADRESS SOZUNU LABEL ILE YAZANDA NECE TEXATREA XETTININ ORTASINA GETIREJ + MESAFENI AYARLAYAQ ?
+
+                -->
+            <textarea name="adress" id="adress" placeholder="Enter your adress"" ></textarea>
+
+            <br>
+            <br>
+            <button type="submit">Submit</button>
+            
+          </fieldset>
+    </form>
+
+    <br>
+    <br>
+    <br>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>First Name </th>
+                <td>
+                    <input type="text" name="fname">
+                </td>
+            </tr>
+            <tr>
+                <th>Last Name</th>
+                <td>
+                    <input type="text" name="lname">
+                </td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>
+                    <input type="email" name="email">
+                </td>
+            </tr>
+            <tr>
+                <th>Password</th>
+                <td>
+                    <input type="password" name="pw">
+                </td>
+            </tr>
+            <tr>
+                <th>Re-Enter Password</th>
+                <td>
+                    <input type="password" name="password">
+                </td>
+            </tr>
+            <!-- Malede row colspan DUZ ISLEMIR SEBEB? -->
+            <tr >
+                <th rowspan="2">Gender</th>
+                <!-- <td colspan="2" > -->
+                    <td>
+                     <input type="radio" name="gender">
+                    <label>Male</label>
+                    </td>
+                <!-- <td></td> -->
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="gender">
+                    <label>Female</label>
+                </td>
+                <!-- <td></td> -->
+            </tr>
+            <tr>
+                <th>Age</th>
+                <td>
+                    <input type="number" name="age">
+                </td>
+            </tr>
+            <tr>
+                <th>Phone Number</th>
+                <td>
+                    <input type="number" name="phonenum">
+                </td>
+            </tr>
+            <tr>
+                <th>Adress</th>
+                <td >
+                    <textarea name="adress" ></textarea>
+                </td>
+            </tr>
+            <tr>
+                <th>State</th>
+                <td>
+                    <input type="text" name="state">
+                </td>
+            </tr>
+            <tr>
+                <th>Country</th>
+                <td>
+                    <select>
+                        <option>Choose your Country</option>
+                        <option>Azerbaijan</option>
+                        <option>Turkey</option>
+                        <option>Russia</option>
+                        <option>USA</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Language known</th>
+                <td>
+                    <input type="checkbox" name="lang">
+                    <label>English</label>
+                    <input type="checkbox" name="lang">
+                    <label>Kanada</label>
+                    <input type="checkbox" name = "lang">
+                    <label>Hindi</label>
+                    <input type = "checkbox" name="lang">
+                    <label>Telugu</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" name="terms">
+                    <label>Hereby I declare all the given details are ture</label>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;">
+                    Log in to <a href="https://www.google.com/" target="_blank">Google</a> website
+                </td>
+            </tr>
+        </thead>
+    </table>
+    
+    <br>
+
+    <button type="submit">Register</button>
+
+
+</body>
+
+</html>
