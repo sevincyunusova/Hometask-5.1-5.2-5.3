@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Sevinckhanim Yunusova">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <meta name="keywords" content="Interstellar , Alien">
+    <title>Interstellar</title>
+</head>
+
+<body>
+    <h1 class="top">Interstellar Wildlife Catalog</h1>
+    <p>Documenting life forms discovered across distant galaxies .</p>
+    <a href="#Alien">Species |</a>
+    <a href="#bio">Bio Scanner |</a>
+    <a href="">Habitats |</a>
+    <a href="">Genetics |</a>
+    <a href="">Contact</a>
+
+    <div>
+        <img src="./pics/interstellarbuilding.jpg" alt="interstellarbuilding" title="interstellarbuilding"
+        height="150" class="img1">
+    </div>
+    <style>
+        h1,p, a {
+            text-align: center;
+        }
+
+        .img1 {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+
+    <hr>
+    <br>
+
+    <h2 class="Alien">Alien Species</h2>
+    <div class="AlienSpecies">
+        <div class="item">
+            <h3>Arcturian Ice Serpent</h3>
+            <img src="./pics/car1.jpg" width="200" class="car1">
+            <p class="txt">Lives beneath frozen oceans and glows in total darkness.</p>
+        </div>
+        <div class="item">
+            <h3>Voltar Beetle Titan</h3>
+            <img src="./pics/car2.img" width="200" class="car2">
+            <p class="txt">A metal-shelled insect capable of transmitting radio waves.</p>
+        </div>
+        <div class="item">
+            <h3>Nebula Cloud Ray</h3>
+            <img src="./pics/car3.jpg" width="200" class="car3">
+            <p class="txt">A floating organism that feeds on starlight particles</p>
+        </div>
+    </div>
+    <style>
+        .AlienSpecies {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            align-items: flex-start;
+        }
+
+        .txt {
+            text-align: left;
+        }
+    </style>
+
+    <hr>
+
+    <h2>Bio Scanner Index</h2>
+    <table class="bio" border="1" width="360" height="150">
+        <thead>
+            <tr>
+                <th>Species</th>
+                <th>Avg Size</th>
+                <th>Threat Level</th>
+                <th>Home Galaxy</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ice Serpent</td>
+                <td>14 meters</td>
+                <td>Medium</td>
+                <td>Arcturus</td>
+            </tr>
+            <tr>
+                <td>Beetle Titan</td>
+                <td>2 meters</td>
+                <td>Low</td>
+                <td>Voltar System</td>
+            </tr>
+            <tr>
+                <td>Cloud Ray</td>
+                <td>8 meters</td>
+                <td>Low</td>
+                <td>Tri-Nebula</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <h2>Planet Habitats</h2>
+    <div class="PlanetHabitats">
+        <div class="item2">
+            <h4>Frostveil-9</h4>
+            <img src="./pics/div21.jpg" width="300" height="180">
+            <p class="txt">A frozen moon with subterrean oceans and glowing caves</p>
+        </div>
+        <div class="item2">
+            <h4>Zephyr Prime</h4>
+            <img src="./pics/zephyr.jpg" width="300" height="180">
+            <p class="txt">Known for floating islands and ultra-light atmosphere gas.</p>
+        </div>
+    </div>
+    <style>
+        .PlanetHabitats {
+            display: flex;
+            gap: 20px;
+        }
+    </style>
+    <div class="PlanetHAbitats2">
+        <div class="item2">
+            <h4>Aurora-51</h4>
+            <img src="./pics/aurora.jpg" width="300" height="180">
+            <p class="txt">Rich with magnetic storms and huminescent plant life.</p>
+        </div>
+        <div>
+            <h4>Crimson Dune World</h4>
+            <img src="./pics/crimson.jpg" width="300" height="180">
+            <p class="txt">Harsh desert planet inhabited by radiation-adapted species.</p>
+        </div>
+        <style>
+            .PlanetHAbitats2 {
+                display: flex;
+                gap: 20px;
+            }
+        </style>
+    </div>
+
+    <hr>
+
+    <h2>Genetic Breakdown</h2>
+    <ul type="square">
+        <li>Ice Serpent DNA</li>
+        <li>Beetle Titan DNA</li>
+        <li>Cloud Ray DNA</li>
+    </ul>
+
+    <hr>
+
+    <h2>Send Interstellar Message</h2>
+    <fieldset>
+        <legend>Communication Form</legend>
+        <form>
+            <label for="name">Explorer Name :</label>
+            <br>
+            <input type="text" id="name">
+            <br>
+            <br>
+            <label for="origin">Galaxy of Origin :</label>
+            <br>
+            <input type="text" id="origin">
+            <br>
+            <br>
+            <label>Species Report :</label>
+            <br>
+            <textarea rows="4" cols="35"></textarea>
+            <br>
+            <br>
+            <label for="urgency">Urgency Level :</label>
+            <br>
+            <select id="urgency">
+                <option>Low</option>
+                <option>Medium</option>
+                <option>High</option>
+            </select>
+            <br>
+            <br>
+            <button tpe="submit">Transmit Message</button>
+        </form>
+    </fieldset>
+    <style>
+        fieldset {
+            width: 400px;
+        }
+    </style>
+
+    <hr>
+
+    <p class="©">© 2350 Interstellar Wildlife Division</p>
+    <style>
+        .© {
+            text-align: left;
+        }
+    </style>
+
+    <a href="#top">Back to Top</a>
+
+
+
+
+
+</body>
+
+</html>
